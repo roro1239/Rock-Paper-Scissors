@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:32px;
+
+}
+#container{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+img{
+    width:450px;
+    height: 450px;
+}
+#container h1{
+font-size:100px;
+color:white;
+}
+.title{
+    text-align: center;
+    font-size:55px;
+    color:white;
+}
+.displayPlayer{
+    display:flex;
+    justify-content: space-around;
+    gap:200px;
+    font-size:40px;
+    height:20px;
+    padding-bottom: 40px;
+    color:white;
+   
+}
+.score{
+    display:flex;
+    justify-content: space-around;
+    gap:200px;
+    font-size:40px;
+    color:white;
+}
+
+button{
+    width:100px;
+    height:100px;
+    font-size:25px;
+}
+#btnRock{
+    background-color:gray;
+}
+#btnPaper{
+    background-color:white;
+}
+#btnScissor{
+    background-color:black;
+    color:white;
+}
